@@ -1,0 +1,31 @@
+{
+  "name": "aplicacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasBenitez30/Aplicacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasBenitez30/Aplicacion/issues"
+  },
+  "homepage": "https://github.com/NicolasBenitez30/Aplicacion#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
